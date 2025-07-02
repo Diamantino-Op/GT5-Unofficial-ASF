@@ -18,6 +18,11 @@ public class BlockCasings12 extends BlockCasingsAbstract {
     public BlockCasings12() {
         super(ItemCasings.class, "gt.blockcasings12", MaterialCasings.INSTANCE, 16);
 
+        register(3, ItemList.Nanite_Accelerator_Pipe_Coils, "Nanite Accelerator Pipe Coil");
+        register(4, ItemList.Nanite_Accelerator_Pipe_Casings, "Nanite Accelerator Pipe Casing");
+        register(5, ItemList.Nanite_Accelerator_Pipe_Director, "Nanite Accelerator Pipe Director");
+        register(6, ItemList.Atomic_Resistant_Casings, "Atomic Resistant Casing");
+
         register(10, ItemList.CasingThaumium, "Alchemically Resistant Thaumium Casing");
         register(11, ItemList.CasingVoid, "Alchemically Inert Void Casing");
         register(12, ItemList.CasingIchorium, "Alchemically Immune Ichorium Casing");
@@ -35,6 +40,10 @@ public class BlockCasings12 extends BlockCasingsAbstract {
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(int ordinalSide, int aMeta) {
         return switch (aMeta) {
+            case 3 -> Textures.BlockIcons.NANITE_ACCELERATOR_PIPE_COIL.getIcon();
+            case 4 -> Textures.BlockIcons.NANITE_ACCELERATOR_PIPE_CASING.getIcon();
+            case 5 -> Textures.BlockIcons.NANITE_ACCELERATOR_PIPE_DIRECTOR.getIcon();
+            case 6 -> Textures.BlockIcons.ATOMIC_RESISTANT_CASING.getIcon();
             case 10 -> Textures.BlockIcons.MACHINE_CASING_THAUMIUM.getIcon();
             case 11 -> Textures.BlockIcons.MACHINE_CASING_VOID.getIcon();
             case 12 -> Textures.BlockIcons.MACHINE_CASING_ICHORIUM.getIcon();

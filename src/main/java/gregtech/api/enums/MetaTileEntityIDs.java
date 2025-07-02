@@ -1739,6 +1739,10 @@ public enum MetaTileEntityIDs {
     UncertaintyResolution(15510),
     ENTROPIC_PROCESSOR(15750),
     DECAY_WAREHOUSE(15751),
+
+    AtomicSeparationFacility(15752),
+    SwarmConductivitySensorHatch(15753),
+
     BasicTeslaTransceiver1by1(16000),
     AdvancedTeslaTransceiver1by1(16001),
     EpycTeslaTransceiver1by1(16002),

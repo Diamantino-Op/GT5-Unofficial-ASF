@@ -2687,6 +2687,15 @@ public enum ItemList implements IItemContainer {
 
     MagLevHarness,
 
+    Nanite_Accelerator_Pipe_Coils,
+    Nanite_Accelerator_Pipe_Casings,
+    Nanite_Accelerator_Pipe_Director,
+    Atomic_Resistant_Casings,
+
+    Hatch_Swarm_Conductivity_Sensor,
+
+    Machine_Multi_Atomic_Separation_Facility
+
     // semicolon after the comment to reduce merge conflicts
     ;
 

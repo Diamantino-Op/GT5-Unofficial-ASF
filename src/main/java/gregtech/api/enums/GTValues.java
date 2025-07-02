@@ -1,14 +1,7 @@
 package gregtech.api.enums;
 
 import static bartworks.util.BWTooltipReference.TT;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.AQUA;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.BOLD;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.DARK_AQUA;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.OBFUSCATED;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.RESET;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.animatedText;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.chain;
-import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.text;
+import static com.gtnewhorizon.gtnhlib.util.AnimatedTooltipHandler.*;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -602,6 +595,15 @@ public class GTValues {
             EnumChatFormatting.GOLD + BOLD,
             EnumChatFormatting.DARK_GREEN + BOLD,
             EnumChatFormatting.DARK_GREEN + OBFUSCATED + BOLD));
+
+    public static final String AuthorDiamondMaster = "Author: " + EnumChatFormatting.BLUE
+        + EnumChatFormatting.OBFUSCATED
+        + "AAA"
+        + EnumChatFormatting.RESET
+        + EnumChatFormatting.BLUE + "Diamond"
+        + EnumChatFormatting.AQUA + "Master"
+        + EnumChatFormatting.OBFUSCATED
+        + "AAA";
 
     public static final String TecTechHatches = "Supports " + TT + " laser and multi-amp hatches";
 
